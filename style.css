@@ -1,0 +1,60 @@
+table.list{
+    text-align: center;
+    width: 100%;
+}
+div{
+    text-align: center;
+    padding: 6px 6px;
+}
+
+body{
+    background-image: url('Dbs_img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    
+}
+
+input[type="text"],input[type="password"]{
+    width: 91%;
+    height: 60%;
+    padding: 12px 20px;
+    margin: i8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+input[type="submit"]{
+    background: rgb(247, 248, 250);
+    padding: 6px 12px;
+    margin: 15px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+a{
+    color: aliceblue;
+    text-shadow: black;
+}
+
+input[type="submit"]:hover{
+    background: rgba(29, 245, 76, 0.623);
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 6px 6px;
+    color: rgb(6, 5, 5);
+    border-radius: 30px;
+    text-shadow: 1px 1px rgb(243, 243, 243);
+   
+    
+}
