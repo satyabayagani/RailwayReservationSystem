@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Reservation System | Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="auth__body">
+
+    <header class="auth__header container">
+        <a href="./" class="auth__logo">
+            <img class="auth__logo-img" src="assets/img/logo.svg" alt="logo">
+        </a>
+        <a href="./search-page.html" class="auth__back-to">← Back to Home page</a>
+    </header>
+
+    <main class="auth__main">
+
+        <div class="auth__container container">
+
+            <div class="auth__content">
+                <h1 class="auth__title">Railway reservation System.</h1>
+
+                <form method="get" class="auth__form">
+                    <div class="input-group">
+                        <label for="username" class="input-group__label">Username</label>
+                        <input class="input-group__input" type="text" id="username" placeholder="johndoe_91">
+                    </div>
+                    <div class="input-group">
+                        <label for="password" class="input-group__label">Password</label>
+                        <input class="input-group__input" type="password" id="password" placeholder="Enter Your Password">
+                    </div>
+                    <a href="#" class="btn btn--dark btn--block input-group__btn">Login</a>
+                </form>         
+
+                <a href="./sign-up.html" class="auth__help">
+                    Not a user yet?
+                    <span class="auth__help-span">Create an account</span>
+                </a>
+            </div>
+
+        </div>
+
+    </main>
+
+    
+ 
+    
+</body>
+</html>
